@@ -16,3 +16,4 @@ inoremap ( ()<Esc>i
 inoremap [ []<Esc>i
 inoremap { {<Cr>}<Esc>i
 
+syntax on
