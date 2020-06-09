@@ -3,18 +3,18 @@ set number
 
 " Auto indent lines after eol" 
 set autoindent
-set cindent
 
 " Set tab indentation to 4 cols"
 set tabstop=4
 set softtabstop=4
 set shiftwidth=4
-set noexpandtab
+" set noexpandtab
+set smartindent
 
 " Append closing paren, brace, and curly brace" 
 inoremap ( ()<Esc>i
 inoremap [ []<Esc>i
-inoremap { {<Cr>}<Esc>i
+inoremap { {<CR>}<Esc>ko
 
 " Syntax highliting"
 syntax on
