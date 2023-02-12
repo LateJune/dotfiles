@@ -43,3 +43,5 @@ set laststatus=2
 " backspace over anything.
 set backspace=indent,eol,start
 
+" Terminal color
+color industry
