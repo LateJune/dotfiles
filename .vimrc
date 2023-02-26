@@ -14,8 +14,7 @@ set smartindent
 " Append closing paren, brace, and curly brace" 
 inoremap ( ()<Esc>i
 inoremap [ []<Esc>i
-inoremap { {<CR>}<Esc>ko
-
+inoremap { {}<Esc>i
 " Syntax highliting"
 syntax on
 
